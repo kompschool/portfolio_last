@@ -1,0 +1,50 @@
+@media screen and (max-width:540px){
+
+/* Шапка сайту */
+    .container{
+        width: 320px;
+        padding: 10px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+    .header{
+        flex-wrap: wrap;
+        height: 210px;
+    }
+    .title{
+        font-size: 20px;
+        width: 144px;
+        height: 72px;
+    }
+   .nav{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    text-align: center;
+   }
+   .item{
+        font-size: 20px;
+   }
+
+/* Промо блок */
+.promo {
+	flex-direction: column;
+}
+.promo_left {
+	width: 100%;
+}
+.promo_text {
+	clear:both;
+    width: 100%;
+}
+.promo_img {
+    width: 100%;
+}
+.promo_title {
+    height: 150px;
+    font-size: 36px;
+}
+}

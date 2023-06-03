@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tablet.css">
+	<link rel="stylesheet" href="css/mobile.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<!-- Шапка сайту -->
+		<header class="header col-12">
+			<img src="img/logo.png" alt="" class="logo col-1">
+			<h3 class="title col-4">Школа комп'ютерної майстерності</h3>
+			<ul class="nav col-5">
+				<li class="item">Item</li>
+				<li class="item">Item</li>
+				<li class="item">Item</li>
+				<li class="item">Item</li>
+			</ul>
+		</header> 
+
+		<!-- Промо блок -->
+		<div class="promo col-12">
+			<div class="promo_left col-6">
+				<h1 class="promo_title col-12">Мова програмування JavaScript</h1>
+				<div class="promo_left_wrapper">
+					<img class="promo_img" src="img/js.png" alt="" class="col-6">
+					<p class="promo_text col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sint beatae labore, corrupti quis dicta, consequuntur blanditiis ex culpa nobis ipsam odio molestiae ipsa quasi provident dignissimos voluptas suscipit eaque.</p>
+				</div>				
+			</div>
+			<picture>
+				<source srcset="img/desktop.png" media="(min-width: 1100px)">
+				<source srcset="img/tablet.png" media="(min-width: 540px) and (max-width:1100px)" width="520px">
+				<source srcset="img/mobile.png" media="(max-width:540px)" width="280px">
+				<img src="img/desktop.png" alt="About JS">
+			</picture>
+		</div>
+		
+		
+	</div>
+	<script>
+		let div = document.querySelectorAll('div');
+		console.log(div)
+	</script>
+</body>
+</html>

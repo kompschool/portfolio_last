@@ -1,0 +1,36 @@
+@media (min-width: 540px) and (max-width:1100px) {
+
+/* Шапка сайту */
+	.container {
+	width: 540px;
+	}
+
+	.header {
+	height: 150px;
+	}
+
+	.logo {
+		width: 150px;
+	}
+
+	.title { display:none }
+
+	.nav {
+		flex-wrap: wrap;
+		height: 100%;
+		align-items: center;
+	}
+	.item {
+		width: 45%;
+	}
+/* Промо блок */
+.promo {
+	flex-direction: column;
+}
+.promo_left {
+	width: 100%;
+}
+picture {
+	width: 500px;
+}
+}
